@@ -22,4 +22,8 @@ wget http://www.scala-lang.org/files/archive/scala-2.10.3.tgz
 tar -zxvf scala-2.10.3.tgz
 wget http://downloads.typesafe.com/play/2.2.1/play-2.2.1.zip
 unzip play-2.2.1.zip
+chmod +x /opt/play/play
+chmod +x /opt/play/framework/build
+chmod -R a+rw /opt/play-2.2.1/*
+
 echo 'PATH=${PATH}:/opt/scala-2.10.3/bin:/opt/play-2.2.1' >> /etc/profile
