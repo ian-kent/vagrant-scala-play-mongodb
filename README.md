@@ -1,4 +1,9 @@
-vagrant-scala-play
-==================
+Ubuntu with Scala, Play Framework and MongoDB
+=============================================
 
-Vagrant build for Ubuntu precise32 with Scala and Play Framework
+Vagrantfile for Ubuntu with Scala, Play Framework and MongoDB
+
+Ubuntu: 12.04 (precise32)
+Scala: 2.10.3
+Play Framework: 2.2.1
+MongoDB: 2.4.9
